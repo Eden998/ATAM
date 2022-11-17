@@ -9,7 +9,7 @@
   jne bad_exit
   cmpb $3, 2(%rax)
   jne bad_exit
-  cmpb $5, 3(%rax)
+  cmpb $4, 3(%rax)
   jne bad_exit
 
   movq $60, %rax
